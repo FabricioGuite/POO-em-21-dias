@@ -1,0 +1,64 @@
+1. o que é programação procedural?
+R: As linguagens procedurais permitem ao programador reduzir um programa 
+em procedimentos refinados para processar dados. Esses procedimentos refinados 
+definem a estrutura global do programa. Chamadas sequenciais a esses
+procedimentos geram a execução de um programa procedural. O programa termina 
+quando acaba de chamar sua lista de procedimentos. 
+
+2. Qual vantagem a programação procedural tem em relação à programação não estruturada? 
+R: A reutilização de código
+
+3. O que é programação modular? 
+R: A programação modular divide os programas em vários componentes ou módulos constituintes. 
+
+4. Quais vantagens a programação modular tem em relação à programação procedural? 
+R: A programação modular oculta a implementação e, assim, protege os dados de manipulação 
+inconsistente ou imprópria. Os módulos também fornecem uma estrutura de nível
+mais alto para um programa. Em vez de pensar em tennos de dados e procedimentos, os
+módulos pennitcm que você pense em um nível comportamental conceitual
+
+5. Liste uma deficiência da programação procedural e da programação modular. 
+R: A programação procedural limita a reutilização de código. E a modular tem duas deficiências,
+não se pode basear um módulo em outro e os módulos não são extensíveis.
+
+6. O que é programação orientada a objetos?
+R: A poo dá o próximo passo lógico após a programação modular, adicionando herança e 
+polimorfismo ao módulo. A poo estrutura um programa, dividindo-o em vários objetos de alto nível.
+Cada objeto modela algum aspecto do problema que você está tentando resolver.
+
+7. Quais são as seis vantagens e objetivos da programação orientada a objetos? 
+R:  1. Natural
+    2. Confiável
+    3. Reutilizável
+    4. Manutenível
+    5. Extensível
+    6. Oportuna 
+
+8. Explique um dos objetivos da programação orientada a objetos. 
+R: Natural: A ideia é você não se aprofundar na parte de programação em termos de regiões de memória
+e detalhes do computador enquanto projeto o programa e ao invés disso usar uma linguagem/termos relacionados
+ao seu problema.
+
+9. Defina os seguintes termos: Classe, Objeto e Comportamento.
+R: Classe: Define os atributos e comportamentos comuns compartilhados por um tipo de objeto.
+   Objeto: Vamos imaginar que a classe é a planta de uma casa e o objeto seria a casa em si, ele é tudp que é definido na classe.
+   É o que o objeto faz
+
+10. Como os objetos se comunicam entre si?
+R: Por meio de mensagens.
+
+11. O que é um construtor? 
+R:  São métodos usdos para inicializar objetos durante uma instancia. Você chama a 
+criação de objetos de instanciação porque ela cria uma instâmcia do objeto da classe.
+
+12. O que é um acessor? 
+R: Eles dão acesso aos dados internos de um objeto. 
+
+13. O que é um mutante?
+R: São métodos que permitem que você altere o estado interno de um objeto.
+
+14. O que é this?
+R: É uma referência que aponta para a instância do objeto. Cada objato tem sua
+própria referência para si mesmo. A instância usa essa referência para acessar
+suas próprias variáveis e métodos. 
+
