@@ -1,0 +1,47 @@
+1. Como o encapsulamento atinge os objetivos da programação orientada a objetos?
+R: Natural: Permite que você modele o problema de maneira mais natural e em termos do próprio problema
+sem ter que se precocupar com linguagem computacional ou termos tecnicos.
+Confiável: O encapsulamento permite a anãlise induvidual de cada componente para a validação
+Reutilizável: a abstração fornece código flexível e utilizável em mais de uma situação. 
+Manutenível: Com o encapsulamento você pode alterar uma parte especifica do código sem se precocupar em ter que mexer em vários lugares do código.
+Extensível: É possivel fazer implementações sem danificar o código e você pode tirar proveito das partes
+já implementadas no código.
+Oportuno: dividindo seu sofuvare em partes independentes, você pode dividir a tarefa de
+criar as partes entre vários desenvolvedores, acelerando assim o desenvolvimento. 
+
+2. Defina abstração e dê um exemplo demonstrando abstração. 
+R:Abstração é o processo de simplificar um problema difici!. Quando começa a resolver um problema, você não se 
+preocupa com cada detalhe. Em vez disso, você o simplifica, tratando apenas dos detalhes pertinentes a uma solução. 
+Um exemplo seria usar um objeto que satisfazesse dois ou mais problemas parecidos, no exemplom do livro ele usa a utilização de uma fila
+para dois problemas distintos.
+
+3. Defina implementação. 
+R: A implementação define como um componente realmente fornece um serviço. A implementação define os detalhes internos do componente. 
+
+4. Defina interface.
+R: interface é aquilo que está sendo mostrado internamente, aquilo que o objeto faz, mas sem explicar como ele faz.
+
+5. Descreva a diferença entre interface e implementação.
+R: A interface é o que o Objeto diz que faz para o externo e a implementação é como ele faz internamente.
+
+6. Por que a divisão clara da responsabilidade é importante para o encapsulamento eficaz? 
+R: Para que cada Objeto possa cuidar do que é seu sem a necessidade de interagir com outro obejto diminuindo assim o acoplamento.
+
+7. Defina tipo.
+R: Os tipos definem as diferentes espécies de valores que estão disponíveis para seus programas. Você usa tipos para
+construir seu programa. Exemplos de alguns tipos comuns são integers (inteiros), longs (inteiros
+longos) e floats (reais). 
+
+8. Defina TAO (Tipo Abstrato de Dados).
+R:  Um TAD é um conjunto de dados e um conjunto de operações sobre esses dados. Os
+TAOs permitem que você defina novos tipos na linguagem, ocultando dados internos e o estado, atrás de uma interface bem defin ida. Essa interface apresenta o TAO como uma
+unica unidade atómica.
+
+9. Como você obtém ocultação da implementação eficaz e código fracamente acoplado?
+R: Você obtém ocultação da implementação e código fracamente acoplado utilizando interfaces ou abstrações, 
+combinadas com o princípio da injeção de dependências. Isso permite que os detalhes da implementação sejam isolados e 
+facilmente substituídos, mantendo a flexibilidade do código.
+
+10. Quais são alguns dos perigos inerentes à abstração?
+R: A abstração pode ser perigosa. Mesmo que você tenha abstraldo algum elemento, ele poderá não funcionar em todos os casos. É muito difícil escrever
+uma classe que satisfaça as necessidades de todos os usuários.
