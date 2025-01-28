@@ -3,6 +3,11 @@ package dia2;
 public class Node {
 
     public String data;
+    @Override
+    public String toString() {
+      return  data;
+    }
+
     private Node next;
   
     public Node(String data) {
