@@ -1,4 +1,4 @@
-package dia2;
+package dia2.pilhanode;
 
 public class Node {
 

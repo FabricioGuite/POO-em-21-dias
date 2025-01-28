@@ -1,11 +1,11 @@
-package dia2;
+package dia2.pilhalista;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class PilhaComList implements PilhaTAD{
+import dia2.PilhaTAD;
 
-    private String elemento;
+public class PilhaComList implements PilhaTAD{
 
     List<String> pilha = new ArrayList<>();
 

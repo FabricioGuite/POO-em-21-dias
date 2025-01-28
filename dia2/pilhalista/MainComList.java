@@ -1,4 +1,4 @@
-package dia2;
+package dia2.pilhalista;
 
 public class MainComList {
     public static void main(String[] args) {

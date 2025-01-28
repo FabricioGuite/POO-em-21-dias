@@ -1,4 +1,4 @@
-package dia2;
+package dia2.pilhanode;
 
 public class MainComNode {
     public static void main(String[] args) {

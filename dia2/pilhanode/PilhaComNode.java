@@ -1,4 +1,6 @@
-package dia2;
+package dia2.pilhanode;
+
+import dia2.PilhaTAD;
 
 public class PilhaComNode implements PilhaTAD{
     private Node topo;
