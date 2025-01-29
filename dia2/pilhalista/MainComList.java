@@ -1,8 +1,10 @@
 package dia2.pilhalista;
 
+import dia2.PilhaTAD;
+
 public class MainComList {
     public static void main(String[] args) {
-        PilhaComList pilha = new PilhaComList();
+        PilhaTAD pilha = pilha();
 
         pilha.push("A");
         pilha.push("B");
@@ -16,5 +18,9 @@ public class MainComList {
         System.out.println("Topo após desempilhar: " + pilha.peek());
 
         pilha.mostrar();
+    }
+
+     private static PilhaTAD pilha(){
+        return new PilhaComList();
     }
 }

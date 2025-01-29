@@ -1,8 +1,10 @@
 package dia2.pilhanode;
 
+import dia2.PilhaTAD;
+
 public class MainComNode {
     public static void main(String[] args) {
-        PilhaComNode pilha = new PilhaComNode();
+        PilhaTAD pilha = pilha();
 
         pilha.push("A");
         pilha.push("B");
@@ -16,5 +18,9 @@ public class MainComNode {
         System.out.println("Topo após desempilhar: " + pilha.peek());
 
         pilha.mostrar();
+    }
+
+    private static PilhaTAD pilha(){
+        return new PilhaComNode();
     }
 }
