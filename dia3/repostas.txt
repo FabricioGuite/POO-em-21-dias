@@ -1,0 +1,25 @@
+1.Examine a classe Account do Laboratório 2. Quais métodos são mutantes? Quais métodos são acessores?
+R: aquelas que tem get no nome.
+
+2.Quais são os dois tipos de construtores? A partir das soluções do laboratório, encontre um exemplo de cada tipo de construtor.
+R: aquelas que alteram o estado do objeto
+
+3.(Opcional) A classe Boolean, conforme discutido no Laboratório 4, declara três variáveis públicas. Neste caso, o uso de variáveis públicas é aceitável. Você pode explicar por que está correto usar variáveis públicas nesse caso?
+R: Em alguns casos especificos é aceitável,  se não houver risco de modificar indevidamente o estado do 
+objeto ou se o projeto for de pequena escala e sem necessidade de grandes preocupações com manutenção e segurança. 
+Mesmo assim, em projetos maiores, o ideal é usar getters e setters para controlar o acesso e a modificação 
+dessas variáveis.como o exemplo, porém em 
+
+4.(Opcional) Como você pode tornar a solução do Laboratório 3 mais eficiente?
+R: A troca de LinkedList por algo como arrayList
+
+5.Por que você acha que a solução do Laboratório 3 não criou uma classe Card separada para cada naipe?
+R: Entraria na ideia de abstração de mais tornando difícl a leitura do código e mais complexa.
+
+6.No Laboratório 3, você explorou a divisão de responsabilidades. Quais vantagens essa divisão proporciona às classes Card, Deck e Dealer?
+R:Melhora a manutenção: Se a classe Card for responsável apenas por representar um cartão, Deck pela coleção de 
+e Dealer pela distribuição, o código fica mais modular e fácil de entender.
+
+Reusabilidade: Cada classe pode ser reutilizada de forma independente. Por exemplo, a 
+classe Card pode ser utilizada em outros contextos que precisem de cartas, sem precisar 
+de todo o código do baralho.
