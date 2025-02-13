@@ -1,0 +1,49 @@
+1. Quais são algumas das limitações da reutilização simples?
+R: Para reutilizar o código novamente você precisa recortar e colar o mesmo, não oferece nada além da instanciação
+
+2. O que é herança?
+R: Uma reutilização segura, quer permite extender métodos e atributos de uma classe ja existente
+
+3. Quais são as três formas de herança?
+R:  1. Para reutilização de implementação
+    2. Para diferença
+    3. Para substituição de tipo 
+
+4. Por que a herança de implementação é perigosa?
+R: A herança de implementação pode parecer útil, mas é perigosa, pois pode levar à herança de tipos incorretos. Quando uma classe herda de outra, 
+ela assume seu tipo, o que pode resultar em comportamentos indesejados. O exemplo de Queue e Iterator ilustra esse problema: ao herdar de Queue, 
+Iterator passa a ter métodos como enqueue() e dequeue(), que contradizem sua funcionalidade original. Isso demonstra que a reutilização pela herança 
+pode introduzir incoerências e deve ser evitada em muitos casos.
+
+5. O que é programação pela diferença?
+R: Um dos 3 tipo de herança, segue a ideia de você codar na classe filha apenas aquilo que ela tem de diferente.
+
+6. Ao herdar uma classe, pode-se ter três tipos de métodos e atributos. Quais são esses três tipos de atributos e métodos?
+R:  Sobrepostos: redefinidos na classe filha, alterando seu comportamento.
+    Novos: exclusivos da classe filha, inexistentes na progenitora.
+    Recursivos: herdados sem modificação, sendo resolvidos na hierarquia quando chamados.
+
+7. Quais vantagens a programação pela diferença oferece?
+R: Menos código, classe mais entendivél, menos chance de erros.
+
+8. Considere a hierarquia da Figura 4.11, extraída da segurança do Java.
+
+Quais classes são suas filhas? Quais são suas descendentes?
+R: AllPermission, BasicPermission e UnsolvedPermission são todas filhas de Permission e Permission tem como descendente SecurityPermission
+
+Considerando toda a hierarquia, qual é a classe raiz?
+R: Permission
+
+Quais classes são classes folha?
+R: AllPermission, UnsolvedPermission e SecurityPermission
+
+Finalmente, Permission é uma ancestral de SecurityPermission?
+R: Sim
+
+9. O que é herança para substituição de tipo?
+R: Herança por substituição de tipo permite trocar uma classe descendente por sua ancestral, desde que novos métodos da descendente não sejam necessários.
+
+10. Como a herança pode destruir o encapsulamento? Como você pode impor o encapsulamento ao usar herança?
+R: A herança pode quebrar o encapsulamento ao permitir que a subclasse acesse diretamente a implementação da superclasse. Para evitar isso, 
+deve-se manter a implementação interna privada e expor apenas os métodos essenciais para a subclasse, priorizando o uso da interface pública da 
+progenitora.
