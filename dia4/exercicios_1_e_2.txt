@@ -1,0 +1,5 @@
+Toda subclasse terá acesso direto à representação interna de Point. Tal acesso irrestrito
+destrói o encapsulamento e abre a classe para os problemas tratados na pergunta 10.
+
+Remediar a situação é tão fácil quanto tornar x e y privados. Note que essa classe Point é
+modelada de acordo com java.awt.Point.
