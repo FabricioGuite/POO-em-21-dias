@@ -1,0 +1,25 @@
+1. A partir das soluções de laboratório, dê um exemplo de método redefinido, de método recursivo e de um novo método.
+R: Em CheckingAccount, o método withdrawFunds(double amount) é redefinido para controlar o número de transações. 
+Em BankAccount, getBalance() é um método recursivo, pois está na classe base e é chamado pelas subclasses sem ser 
+redefinido. Já getInterestRate() em SavingsAccount é um novo método, pois existe apenas nessa classe e não na 
+progenitora.
+
+2. Por que você declararia uma classe como abstrata?
+R: Para obrigar as subclasses a declararem o método e por não ser necessario uma implementação na super classe.
+
+3. No Laboratório 4, você explorou os relacionamentos "é um" e "tem um". Antes mesmo de aprender sobre herança,
+você viu relacionamentos "tem um". Quais os relacionamentos "tem um" que você viu nos laboratórios do Dia 3?
+R: O Laboratório 3 mostra 'tem um'. Deck tem objetos Cartas. DoubleKey, do Laboratório 2,
+também tem duas Strings. 
+
+4. Como esses laboratórios preservaram o encapsulamento entre a classe base e as subclasses?
+R: Os laboratórios garantiram o encapsulamento tornando todos os dados privados e fornecendo acesso por meio de uma 
+interface bem definida.
+
+5. A partir das soluções, encontre um exemplo de especialização.
+R: SavingsAccount é uma especialização de BankAccount, adicionando métodos específicos para juros.
+
+6. Como as soluções do Laboratório 3 e do Laboratório 4 adotam uma estratégia diferente para reutilização de 
+implementação?
+R: O Laboratório 3 reutiliza código por herança, enquanto o Laboratório 4 começa com herança, mas adota composição
+para uma reutilização mais limpa.
