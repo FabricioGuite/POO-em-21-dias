@@ -1,0 +1,33 @@
+1. Quais são os quatro tipos de polimorfismo?
+R: inclusão, paramétrico, sobreposição, sobrecarga
+
+2. O que o polimorfismo de inclusão permite que você faça?
+R: fazer parecer que um objeto tem o comportamento de outro, e que um objeto tem comportamentos diferentes
+
+3. Como a sobrecarga e o polimorfismo paramétrico modelam mais naturalmente o mundo real?
+R: permite criar e usar métodos com nomes "genéricos" sem a necessidade de uma especificação. 
+
+4. Ao programar, por que você deve programar para uma interface, em vez de para uma implementação?
+R: Programar para uma interface evita dependência de implementações específicas, permitindo a troca fácil entre diferentes versões e 
+flexibilizando o comportamento do programa.
+
+5. Como o polimorfismo e a sobreposição trabalham juntos?
+R: Garantindo que ao sobrepor um método será chamado o certo.
+
+6.Qual é outro nome para sobrecarga?
+R: ad-hoe
+
+7. Defina sobrecarga.
+R: A sobrecarga permite definir métodos com o mesmo nome, diferenciando-os pelos parâmetros. Isso facilita a modelagem conceitual, 
+enquanto o polimorfismo gerencia a escolha da versão correta automaticamente.
+
+8. Defina polimorfismo paramétrico.
+R: O polimorfismo paramétrico permite criar tipos e métodos genéricos, adiando a definição de tipos até a execução. Isso torna o 
+código mais natural e flexível, focando no conceito do que ele faz, em vez de detalhes específicos.
+
+9. Quais são as três armadilhas associadas ao polimorfismo?
+R: Custo na eficiência, Quebra da hierarquia de herança, Perda de comportamentos específicos do subtipo
+
+10. Como o encapsulamento e a herança afetam o polimorfismo de inclusão?
+R: A herança eficiente impacta diretamente o polimorfismo de inclusão, exigindo uma hierarquia de objetos bem definida. O encapsulamento 
+evita dependência de implementações específicas, facilitando a substituição e reduzindo o acoplamento entre objetos.
