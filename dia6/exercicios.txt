@@ -1,0 +1,12 @@
+1. Dê um exemplo real de situação de programação onde você acha que poderia usar polimorfismo de inclusão. Pode ajudar pensar em algo que você tenha programado 
+anteriormente, que pudesse tirar proveito do polimorfismo.
+R: Um sistema de pagamento onde Pagamento é uma classe base e CartaoCredito, Boleto e Pix são subclasses, permitindo tratar todas como Pagamento
+
+2.Dê um exemplo de conversão. Explique por que se trata de conversão.
+R: Conversão implícita: int x = 10; double y = x; (O int é convertido automaticamente para double).
+
+3. Examine as APIs Java. Encontre um exemplo de sobrecarga e explique-o. Em seguida, encontre uma hierarquia de classes que você poderia destacar para 
+polimorfismo de inclusão. Identifique a hierarquia e explique como você pode aplicar polimorfismo de inclusão nela.
+R: 
+-Math.max(int a, int b) e Math.max(double a, double b) fazem a mesma coisa, mas aceitam tipos diferentes.
+-List, ArrayList, LinkedList → Qualquer List pode ser tratada como List.
