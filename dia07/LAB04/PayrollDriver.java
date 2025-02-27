@@ -20,6 +20,7 @@ public class PayrollDriver {
         payroll.recordEmployeeInfo(emp4);
 
         Employee[] emps = {emp1, emp2, emp3, emp4};
+        payroll.calculateBonus(emps);
         payroll.payEmployees(emps);
         payroll.printReport();
     }

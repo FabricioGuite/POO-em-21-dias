@@ -7,6 +7,10 @@ public class HourlyEmployee extends Employee {
         super(firstName, lastName, wage);
     }
 
+    public double calculateBonus(){
+        return 100.00;
+    }
+
     public double calculatePay() {
         return getWage() * hours;
     }

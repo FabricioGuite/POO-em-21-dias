@@ -12,6 +12,13 @@ public class Payroll {
         }
     }
 
+    public void calculateBonus(Employee[] emps){
+        for (int i = 0; i < emps.length; i++) {
+            Employee emp = emps[i];
+            System.out.println("Pay bonus to " + emp.getLastName() + ", " + emp.getFirstName() + " $" + emp.calculateBonus());
+        }
+    }
+
     public void recordEmployeeInfo(CommissionedEmployee emp) {
         totalSales += emp.getSales();
     }

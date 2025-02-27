@@ -9,6 +9,10 @@ public class CommissionedEmployee extends Employee {
         this.commission = commission;
     }
 
+    public double calculateBonus(){
+        return 100.00 * getSales();
+    }
+
     public double calculatePay() {
         return getWage() + (commission * units);
     }

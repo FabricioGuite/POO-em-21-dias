@@ -11,6 +11,8 @@ public abstract class Employee {
         this.wage = wage;
     }
 
+    public abstract double calculateBonus();
+
     public double getWage() {
         return wage;
     }
