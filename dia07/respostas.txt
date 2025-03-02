@@ -1,0 +1,32 @@
+1. A partir das soluções de laboratório, dê um exemplo de método sobrecarregado.
+R: O método observe da classe PsychiatristObject.
+
+2. Qual problema a sobreposição apresenta?
+R: Toda vez que for criado outro objeto, deverá ser criado outro método.
+
+3. Quais passos você precisa dar para alterar o comportamento em uma hierarquia polimórfica?
+R:São dois passos para adicionar novo comportamento em uma hierarquia poli mórfica.
+Pri meiro, crie o novo ti po. Segundo, al tere seu programa de modo que ele possa eriar ins-
+tâncias do novo tipo. Você não deve ter de mudar nada ma is, a não ser que precise tirar
+proveito de algum recurso especial da nova classe.
+
+4 . A partir dos laboratórios, encontre um exemplo de polimorfismo de inclusão.
+R: O método examine da classe PsychiatristObject.
+
+5. Como você elimina lógica condicional?
+R: transformando dados em objetos, se já são um objeto, deve-se adicionar um método a esse objeto
+
+6. Qual é a vantagem do polimorfismo de inclusão em relação à sobrecarga?
+R: Toda vez que você criar uma nova classe filha, o todas os metódos que recebem a super classe vão funcionar para a classe nova, sem necessidade de modificações
+
+7. Na OO, qual é o relacionamento entre objetos e dados?
+R: Na OO você não solicita os dados de um objeto e depois faz alguma coisa com ele, você deve solicitar que o objeto faça algo com os dados dele.
+
+8. O que há de errado com as estruturas condicionais?
+R: Elas geralmente ferem o relacionamento entre objetos e dados na OO.
+
+9. Qual é uma boa indicação de que uma estrutura condicional é ruim?
+R: Quando você precisa alterar a estrutura condicional quando você adicionar outro subtipo.
+
+10. Explique o polimorfismo com suas próprias palavras.
+R: A capacidade do código se adaptar ao futuro, em outras palavras, a possibilidade de adicionar algo ao código sem precisar alterar coisas já existentes.
