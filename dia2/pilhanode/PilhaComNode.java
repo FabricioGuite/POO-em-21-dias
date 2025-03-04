@@ -4,6 +4,7 @@ import dia2.PilhaTAD;
 
 public class PilhaComNode implements PilhaTAD{
     private Node topo;
+    @SuppressWarnings("unused")
     private int tamanho;    
 
     public PilhaComNode(){
