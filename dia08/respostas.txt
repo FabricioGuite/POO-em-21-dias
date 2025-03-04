@@ -1,0 +1,46 @@
+1. o que é UML?
+R: É uma linguagem de modelagem padrão. A linguagem consiste em várias notacões gráficas que você pode usar para descrever a arquitetura inteira de 
+seu software.
+
+2. Qual é a diferença entre uma metodologia e uma linguagem de modelagem?
+R:Uma metodologia diz a você como projetar o software. Em vez disso, uma linguagem de modelagem ilustra o projeto que você criará enquanto segue uma metodologia.
+
+3. Que tipo de relacionamento existe entre Employee e Payroll , no Laboratório 1 do Dia 7?
+R: dependência
+
+4. Examine cuidadosamente o modelo da Figura 8.15. Usando apenas o modelo, o que você pode dizer a respeito de MoodyObject?
+R: MoodyObject seria representado do mesmo jeito que BankAccount, uma classe mãe abstrata.
+
+5. Examine os laboratórios do Dia 7. Encontre um exemplo de dependência.
+R: RewardsAccount não existiria sem SavingAccount
+
+6. Na UML, o que os sinais a seguir simbolizam: +, #, -?
+R: O nível de acesso dos métodos: public, protected e private
+
+7. O Dia 2 apresentou a segui nte interface:
+
+public interface Queue {
+    public void enqueue( Object obj );
+    public Object dequeue() ;
+    public boo1ean isEmpty();
+    public Object peek() ;
+}
+
+Que tipo de relacionamento Queue tem com os elementos que contém?
+R: Agregação
+
+8. No Dia 3, Laboratório 3, a classe Deck criava várias cartas. Que tipo de relacionamento "tem um" isso representa?
+R: composição
+
+9. Como você ilustra que uma classe ou método é abstrato?
+R: Escrevendo seu nome em italico.
+
+10. Qual é o objetivo final da modelagem? Quais consequências esse objetivo tem?
+R: Demonstrar a estrutura do seu código e como ele funciona, A consequência é não se preocupar com todaa notação, mas sim transmitir uma mensagem
+
+11. Explique associação, agregação e composição.
+R: Associação: um objeto contém outro; Agregação: Um objeto contém outro, mas são idenpendentes; Composição: A existência de um objeto depende 
+completamente da existência do outro.
+
+12. Explique quando você deve usar associação, agregação e composição.
+R: Depende do nível de detalhamento que você quer usar na sua modelagem. Associação para modelar os papéis e os outros para o projeto estrututal.
